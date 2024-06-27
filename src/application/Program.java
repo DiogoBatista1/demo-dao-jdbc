@@ -32,7 +32,7 @@ public class Program {
 			System.out.println(obj);
 		}
 		
-		System.out.println("=== TEST 4: seller findAll ===");
+		System.out.println("=== TEST 4: seller Insert ===");
 		Seller newSeller = new Seller(null, "Greg", "greg@gmail.com", new Date(), 4000.0, department);
 		sellerDao.insert(newSeller);
 		System.out.println("Inserted! New id = " + newSeller.getId());
